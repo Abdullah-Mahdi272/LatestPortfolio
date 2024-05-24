@@ -1,0 +1,16 @@
+.carousel-title {
+    color: rgb(255, 255, 255); /* Set the color of the carousel title to black */
+  }
+  
+.carousel-description {
+    color: rgb(255, 255, 255); /* Set the color of the carousel title to black */
+    font-weight: bold;
+  }
+  
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  

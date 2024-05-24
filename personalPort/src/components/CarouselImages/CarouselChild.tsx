@@ -1,13 +1,15 @@
-import React from "react";
-import image1 from "./IMG_1263.jpg";
 export interface ExampleCarouselImageProps {
   text: string;
+  image: string;
+  size: number;
 }
 
 const ExampleCarouselImage: React.FC<ExampleCarouselImageProps> = ({
   text,
+  size,
+  image,
 }) => {
-  return <img src={image1} width="100" alt={text} />;
+  return <img src={image} width={size} alt={text} />;
 };
 
 export default ExampleCarouselImage;
