@@ -14,3 +14,22 @@
     height: 100%;
   }
   
+  .transparent {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .transparent.visible {
+    opacity: 1;
+  }
+  /*CSS*/
+div.c-wrapper{
+  width: 80%; /* for example */
+  margin: auto;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}

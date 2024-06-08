@@ -3,7 +3,7 @@ import ExampleCarouselImage from "./CarouselImages/CarouselChild";
 import "./Carousel.css";
 function IndividualIntervalsExample() {
   return (
-    <div className="carousel-container">
+    <div>
       <Carousel>
         <Carousel.Item interval={5000}>
           <ExampleCarouselImage
@@ -29,7 +29,7 @@ function IndividualIntervalsExample() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item interval={5000}>
           <ExampleCarouselImage
             size={500}
             image="https://i.imgur.com/sfPRCZ2.jpeg"
