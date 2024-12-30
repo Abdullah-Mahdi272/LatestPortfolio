@@ -27,6 +27,19 @@ div.c-wrapper{
   width: 80%; /* for example */
   margin: auto;
 }
+.carousel-caption {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-caption.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.carousel-caption.fade-in {
+  opacity: 1;
+  visibility: visible;
+}
 
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{

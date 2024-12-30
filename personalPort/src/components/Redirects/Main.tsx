@@ -18,8 +18,6 @@ function Main() {
     <>
       <p>Hi</p>
       <p>Hi</p>
-      <p>Hi</p>
-      <p>Hi</p>
 
       <div className="centered-carousel">
         <Carousel />
