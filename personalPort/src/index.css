@@ -35,6 +35,14 @@ h1 {
   line-height: 1.1;
 }
 
+/* Centering for specific components */
+.centered-container {
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

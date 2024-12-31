@@ -2,10 +2,9 @@ import React from "react";
 import "./ExampleCarouselImage.css"; // Import the CSS file for styling
 
 interface ExampleCarouselImageProps {
-  size: number;
-  image: string;
   text: string;
-  slideIndex: number;
+  image: string;
+  size: number;
 }
 
 const ExampleCarouselImage: React.FC<ExampleCarouselImageProps> = ({

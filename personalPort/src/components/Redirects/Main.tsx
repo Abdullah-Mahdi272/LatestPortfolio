@@ -16,8 +16,8 @@ function Main() {
 
   return (
     <>
-      <p>Hi</p>
-      <p>Hi</p>
+      <br></br>
+      <br></br>
 
       <div className="centered-carousel">
         <Carousel />
